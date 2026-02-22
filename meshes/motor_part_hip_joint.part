@@ -1,0 +1,14 @@
+{
+    "configuration": "default",
+    "documentId": "ba33783551edaa306037952c",
+    "documentMicroversion": "2728666aa834a9e3074ec453",
+    "documentVersion": "c5beb29c8caf2cc5fc1f9416",
+    "elementId": "ee2b257c17ffc494f051716c",
+    "fullConfiguration": "default",
+    "id": "M4JjZdEfTXO85K0f/",
+    "isStandardContent": false,
+    "name": "Motor Part Hip Joint <1>",
+    "partId": "JHD",
+    "suppressed": false,
+    "type": "Part"
+}
