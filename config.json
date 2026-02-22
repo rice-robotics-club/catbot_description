@@ -1,11 +1,11 @@
 {
-  "robot_name": "robot", # TODO: replace with robot name
-  "package_name": "onshape_description_template", # TODO: replace with package name
+  "robot_name": "catbot",
+  "package_name": "catbot_description",
   "assets_directory": "meshes",
   "output_filename": "urdf/robot",
-  "output_format": "urdf",
-  "document_id": "", # TODO: replace with document_id (after d/ in url)
-  "workspace_id": "", # TODO: replace with workspace_id (after w/ in url)
-  "element_id": "", # TODO: replace with element_id (after e/ in url)
-  "assembly_name": "" # TODO: replace with OnShape assembly name
+  "output_format": "mujoco",
+  "document_id": "9c20b098af12cbd02fc50d1f",
+  "workspace_id": "91f9e8051518d9fb326b8e23",
+  "element_id": "b97910f52000ef996e018b7b",
+  "assembly_name": "RobotAssemblyForSim"
 }
