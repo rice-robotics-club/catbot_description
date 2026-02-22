@@ -1,13 +1,13 @@
 {
     "configuration": "default",
     "documentId": "ba33783551edaa306037952c",
-    "documentMicroversion": "2728666aa834a9e3074ec453",
-    "documentVersion": "c5beb29c8caf2cc5fc1f9416",
+    "documentMicroversion": "0615403af43eed04f9771c29",
+    "documentVersion": "796392325a0724f70c0050a5",
     "elementId": "d50477aba50d23446ca1f8ec",
     "fullConfiguration": "default",
-    "id": "MHab7mny9QpXn/aw0",
+    "id": "MO60QLFMcvA4WUBFc",
     "isStandardContent": false,
-    "name": "hip joint to bearing shaft <4>",
+    "name": "hip joint to bearing shaft <1>",
     "partId": "JHD",
     "suppressed": false,
     "type": "Part"
