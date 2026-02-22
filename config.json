@@ -3,7 +3,7 @@
   "package_name": "catbot_description",
   "assets_directory": "meshes",
   "output_filename": "robot",
-  "output_format": "mujoco",
+  "output_format": "urdf",
   "document_id": "9c20b098af12cbd02fc50d1f",
   "workspace_id": "91f9e8051518d9fb326b8e23",
   "element_id": "b97910f52000ef996e018b7b",
