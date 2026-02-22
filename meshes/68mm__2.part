@@ -1,13 +1,13 @@
 {
     "configuration": "default",
     "documentId": "7dc8f9a2d1daf85c04007f1a",
-    "documentMicroversion": "70136d31948654ff6a16009d",
-    "documentVersion": "05c33df41a7ab5f5b56903a9",
-    "elementId": "d679e5cdf3523f2689bf6143",
+    "documentMicroversion": "c6522b572b0f0c001a35d27b",
+    "documentVersion": "0b7dc1f0408b6c992ee02999",
+    "elementId": "5f3aa3cfb594949e79c1d832",
     "fullConfiguration": "default",
-    "id": "M66imuyIuFvyGqRrc",
+    "id": "MU9R6MZIWIy6DN3oA",
     "isStandardContent": false,
-    "name": "80mm <3>",
+    "name": "68mm <1>",
     "partId": "JHD",
     "suppressed": false,
     "type": "Part"
