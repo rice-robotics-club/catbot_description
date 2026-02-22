@@ -19,7 +19,7 @@
     <!-- Link chassisasm -->
     <body name="chassisasm" pos="0 0 0" quat="1 0 0 0" childclass="catbot">
       <freejoint name="chassisasm_freejoint"/>
-      <inertial pos="-0.00145492 -0.00297075 -0.0189036" mass="6.86611" fullinertia="0.231076 0.0414857 0.263289 -1.09167e-12 2.06098e-08 -6.74103e-17"/>
+      <inertial pos="-0.00145492 -0.00297075 -0.0189036" mass="6.86611" fullinertia="0.231076 0.0414857 0.263289 -1.09167e-12 2.06098e-08 -6.74374e-17"/>
       <!-- Part part_1 -->
       <geom type="mesh" class="visual" pos="0.0860451 -0.0258958 -0.0543461" quat="1 6.76542e-17 1.11022e-16 1.97215e-31" mesh="part_1" material="part_1_material"/>
       <geom type="mesh" class="collision" pos="0.0860451 -0.0258958 -0.0543461" quat="1 6.76542e-17 1.11022e-16 1.97215e-31" mesh="part_1" material="part_1_material"/>
@@ -87,7 +87,7 @@
       <body name="part_1" pos="-0.0889549 0.0359542 -0.0543461" quat="0.707107 0.707107 -6.66134e-16 5.76981e-16">
         <!-- Joint from chassisasm to part_1 -->
         <joint axis="0 0 1" name="FL_hip" type="hinge"/>
-        <inertial pos="0.0023646 0.000118119 -0.126474" mass="0.834326" fullinertia="0.00324938 0.00306461 0.000364028 -2.10674e-06 5.25963e-06 2.39439e-06"/>
+        <inertial pos="0.00234746 0.000117263 -0.125691" mass="0.840416" fullinertia="0.00332052 0.00313579 0.000364426 -2.10843e-06 6.80462e-06 2.47156e-06"/>
         <!-- Part part_1_6 -->
         <geom type="mesh" class="visual" pos="0 0 -0.0075" quat="0.5 0.5 0.5 -0.5" mesh="part_1__3" material="part_1__3_material"/>
         <geom type="mesh" class="collision" pos="0 0 -0.0075" quat="0.5 0.5 0.5 -0.5" mesh="part_1__3" material="part_1__3_material"/>
@@ -122,21 +122,21 @@
         <geom type="mesh" class="visual" pos="-1.249e-16 0 -0.047725" quat="0.707107 0 -0.707107 -0" mesh="spacer" material="spacer_material"/>
         <geom type="mesh" class="collision" pos="-1.249e-16 0 -0.047725" quat="0.707107 0 -0.707107 -0" mesh="spacer" material="spacer_material"/>
         <!-- Link 68mm -->
-        <body name="68mm" pos="-0.007 4.16334e-17 -0.173675" quat="2.76001e-13 -0.707107 2.75224e-13 -0.707107">
+        <body name="68mm" pos="-0.007 5.55112e-17 -0.173675" quat="3.21867e-13 -0.707107 3.21076e-13 -0.707107">
           <!-- Joint from part_1 to 68mm -->
           <joint axis="0 0 1" name="FL_l" type="hinge"/>
           <inertial pos="-0.00524172 0.00380833 -0.0130847" mass="0.0627693" fullinertia="1.52145e-05 1.94787e-05 1.89506e-05 6.56192e-06 -3.75585e-06 2.72879e-06"/>
           <!-- Part shaftcouplerright -->
-          <geom type="mesh" class="visual" pos="0 0 -0.0075" quat="0.5 0.5 -0.5 -0.5" mesh="shaftcouplerright" material="shaftcouplerright_material"/>
-          <geom type="mesh" class="collision" pos="0 0 -0.0075" quat="0.5 0.5 -0.5 -0.5" mesh="shaftcouplerright" material="shaftcouplerright_material"/>
+          <geom type="mesh" class="visual" pos="0 6.93889e-18 -0.0075" quat="0.5 0.5 -0.5 -0.5" mesh="shaftcouplerright" material="shaftcouplerright_material"/>
+          <geom type="mesh" class="collision" pos="0 6.93889e-18 -0.0075" quat="0.5 0.5 -0.5 -0.5" mesh="shaftcouplerright" material="shaftcouplerright_material"/>
           <!-- Part 68mm -->
           <geom type="mesh" class="visual" pos="-0.0200945 0.0145995 -0.0245" quat="0.672499 -0.218508 -0.672499 -0.218508" mesh="68mm" material="68mm_material"/>
           <geom type="mesh" class="collision" pos="-0.0200945 0.0145995 -0.0245" quat="0.672499 -0.218508 -0.672499 -0.218508" mesh="68mm" material="68mm_material"/>
           <!-- Part part_1_10 -->
-          <geom type="mesh" class="visual" pos="0 0 0" quat="0.707107 0.707107 0 6.18332e-44" mesh="part_1__4" material="part_1__4_material"/>
-          <geom type="mesh" class="collision" pos="0 0 0" quat="0.707107 0.707107 0 6.18332e-44" mesh="part_1__4" material="part_1__4_material"/>
+          <geom type="mesh" class="visual" pos="0 6.93889e-18 0" quat="0.707107 0.707107 0 1.08313e-43" mesh="part_1__4" material="part_1__4_material"/>
+          <geom type="mesh" class="collision" pos="0 6.93889e-18 0" quat="0.707107 0.707107 0 1.08313e-43" mesh="part_1__4" material="part_1__4_material"/>
           <!-- Link 225mmbottom -->
-          <body name="225mmbottom" pos="-0.0403199 0.0292942 -0.0325" quat="0.891007 9.93949e-15 -1.52101e-14 0.45399">
+          <body name="225mmbottom" pos="-0.0403199 0.0292942 -0.0325" quat="0.891007 9.93949e-15 -1.53211e-14 0.45399">
             <!-- Joint from 68mm to 225mmbottom -->
             <joint axis="0 0 1" name="FL_leg2_2" type="hinge"/>
             <inertial pos="0.100068 -0.0264312 -0.008" mass="0.0563618" fullinertia="1.73071e-05 0.000222199 0.000237608 5.8177e-05 7.71699e-18 -2.03773e-18"/>
@@ -144,24 +144,24 @@
             <geom type="mesh" class="visual" pos="0.100068 -0.0264312 -0.008" quat="0.091046 -0.701221 0.091046 0.701221" mesh="225mmbottom" material="225mmbottom_material"/>
             <geom type="mesh" class="collision" pos="0.100068 -0.0264312 -0.008" quat="0.091046 -0.701221 0.091046 0.701221" mesh="225mmbottom" material="225mmbottom_material"/>
             <!-- Link 160mm -->
-            <body name="160mm" pos="0.200136 -0.0528623 -0.016" quat="0.610175 -1.54796e-14 9.4369e-15 -0.792267">
+            <body name="160mm" pos="0.200136 -0.0528623 -0.016" quat="0.610175 -1.54108e-14 9.4369e-15 -0.792267">
               <!-- Joint from 225mmbottom to 160mm -->
               <joint axis="0 0 1" name="FL_leg_cyl_1_2" type="hinge"/>
-              <inertial pos="-0.0205095 -0.00539843 -0.008" mass="0.0400222" fullinertia="6.89762e-06 8.05118e-05 8.60343e-05 -2.08188e-05 2.80912e-33 -1.05327e-32"/>
+              <inertial pos="-0.0205095 -0.00539843 -0.008" mass="0.0400222" fullinertia="6.89762e-06 8.05118e-05 8.60343e-05 -2.08188e-05 2.80909e-33 -1.05353e-32"/>
               <!-- Part 160mm -->
               <geom type="mesh" class="visual" pos="-0.0203083 -0.00534546 -0.008" quat="0.0907459 -0.70126 -0.0907459 -0.70126" mesh="160mm" material="160mm_material"/>
               <geom type="mesh" class="collision" pos="-0.0203083 -0.00534546 -0.008" quat="0.0907459 -0.70126 -0.0907459 -0.70126" mesh="160mm" material="160mm_material"/>
               <!-- Frame closing_FL_leg3_2_1 -->
-              <site group="3" name="closing_FL_leg3_2_1" pos="0.048353 0.0127273 1.80411e-15" quat="0.792006 3.38434e-17 3.06691e-17 -0.610514"/>
+              <site group="3" name="closing_FL_leg3_2_1" pos="0.048353 0.0127273 1.80411e-15" quat="0.792006 -5.24981e-17 -4.90886e-17 -0.610514"/>
               <!-- Frame closing_FL_leg3_2_1_z -->
-              <site group="3" name="closing_FL_leg3_2_1_z" pos="0.048353 0.0127273 0.1" quat="0.792006 3.38434e-17 3.06691e-17 -0.610514"/>
+              <site group="3" name="closing_FL_leg3_2_1_z" pos="0.048353 0.0127273 0.1" quat="0.792006 -5.24981e-17 -4.90886e-17 -0.610514"/>
             </body>
           </body>
           <!-- Link 225mmtop -->
-          <body name="225mmtop" pos="-1.94289e-16 -5.0307e-15 -0.0325" quat="0.903178 -5.69483e-17 2.77556e-17 -0.429266">
+          <body name="225mmtop" pos="-2.22045e-16 -5.01682e-15 -0.0325" quat="0.903178 -5.69483e-17 2.77556e-17 -0.429266">
             <!-- Joint from 68mm to 225mmtop -->
             <joint axis="0 0 1" name="FL_leg_5_2" type="hinge"/>
-            <inertial pos="2.90224e-17 0.103396 -0.008" mass="0.0562684" fullinertia="0.000237245 2.00635e-06 0.000237309 1.00846e-20 -3.45426e-35 2.82234e-35"/>
+            <inertial pos="2.9025e-17 0.103396 -0.008" mass="0.0562684" fullinertia="0.000237245 2.00635e-06 0.000237309 1.00846e-20 -3.45426e-35 2.82234e-35"/>
             <!-- Part 225mmtop -->
             <geom type="mesh" class="visual" pos="2.77556e-17 0.1035 -0.008" quat="0.5 -0.5 -0.5 -0.5" mesh="225mmtop" material="225mmtop_material"/>
             <geom type="mesh" class="collision" pos="2.77556e-17 0.1035 -0.008" quat="0.5 -0.5 -0.5 -0.5" mesh="225mmtop" material="225mmtop_material"/>
@@ -208,7 +208,7 @@
       <body name="part_1_2" pos="0.0860451 0.0359542 -0.0543461" quat="0.707107 0.707107 1.51879e-13 -1.51829e-13">
         <!-- Joint from chassisasm to part_1_2 -->
         <joint axis="0 0 1" name="FR_hip" type="hinge"/>
-        <inertial pos="-0.0023646 -0.000118119 -0.126474" mass="0.834326" fullinertia="0.00324938 0.00306461 0.000364028 -2.10674e-06 -5.25963e-06 -2.39439e-06"/>
+        <inertial pos="-0.00234746 -0.000117263 -0.125686" mass="0.840416" fullinertia="0.00332134 0.00313661 0.000364426 -2.10843e-06 -6.81362e-06 -2.47201e-06"/>
         <!-- Part part_1_12 -->
         <geom type="mesh" class="visual" pos="0 -6.93889e-18 -0.028675" quat="0.5 -0.5 -0.5 -0.5" mesh="part_1__3" material="part_1__3_material"/>
         <geom type="mesh" class="collision" pos="0 -6.93889e-18 -0.028675" quat="0.5 -0.5 -0.5 -0.5" mesh="part_1__3" material="part_1__3_material"/>
@@ -267,8 +267,8 @@
           <joint axis="0 0 1" name="FR_l" type="hinge"/>
           <inertial pos="-0.00380833 0.00524172 -0.0130847" mass="0.0627693" fullinertia="1.94787e-05 1.52145e-05 1.89506e-05 6.56192e-06 -2.72879e-06 3.75586e-06"/>
           <!-- Part shaftcouplerright_2 -->
-          <geom type="mesh" class="visual" pos="1.38778e-17 0 -0.0075" quat="2.0262e-13 2.0739e-13 0.707107 0.707107" mesh="shaftcouplerright" material="shaftcouplerright_material"/>
-          <geom type="mesh" class="collision" pos="1.38778e-17 0 -0.0075" quat="2.0262e-13 2.0739e-13 0.707107 0.707107" mesh="shaftcouplerright" material="shaftcouplerright_material"/>
+          <geom type="mesh" class="visual" pos="1.38778e-17 0 -0.0075" quat="2.50449e-13 2.55213e-13 0.707107 0.707107" mesh="shaftcouplerright" material="shaftcouplerright_material"/>
+          <geom type="mesh" class="collision" pos="1.38778e-17 0 -0.0075" quat="2.50449e-13 2.55213e-13 0.707107 0.707107" mesh="shaftcouplerright" material="shaftcouplerright_material"/>
           <!-- Part 68mm_2 -->
           <geom type="mesh" class="visual" pos="-0.0145995 0.0200945 -0.0245" quat="0.32102 -0.630037 0.32102 0.630037" mesh="68mm" material="68mm_material"/>
           <geom type="mesh" class="collision" pos="-0.0145995 0.0200945 -0.0245" quat="0.32102 -0.630037 0.32102 0.630037" mesh="68mm" material="68mm_material"/>
@@ -279,7 +279,7 @@
           <body name="225mmtop_2" pos="5.23886e-15 2.22045e-16 -0.0325" quat="0.942375 0 -2.22045e-16 -0.334559">
             <!-- Joint from 68mm_2 to 225mmtop_2 -->
             <joint axis="0 0 1" name="FR_leg1_1" type="hinge"/>
-            <inertial pos="1.2571e-18 -0.103396 -0.008" mass="0.0562684" fullinertia="0.000237245 2.00635e-06 0.000237309 -4.91413e-21 -7.73661e-33 -5.92096e-33"/>
+            <inertial pos="1.25965e-18 -0.103396 -0.008" mass="0.0562684" fullinertia="0.000237245 2.00635e-06 0.000237309 -4.91413e-21 -7.73661e-33 -5.92096e-33"/>
             <!-- Part 225mmtop_2 -->
             <geom type="mesh" class="visual" pos="0 -0.1035 -0.008" quat="0.5 0.5 0.5 -0.5" mesh="225mmtop" material="225mmtop_material"/>
             <geom type="mesh" class="collision" pos="0 -0.1035 -0.008" quat="0.5 0.5 0.5 -0.5" mesh="225mmtop" material="225mmtop_material"/>
@@ -305,22 +305,22 @@
           <body name="225mmbottom_2" pos="-0.0292942 0.0403199 -0.0325" quat="0.942239 -0 -4.85723e-17 -0.33494">
             <!-- Joint from 68mm_2 to 225mmbottom_2 -->
             <joint axis="0 0 1" name="FR_leg2_1" type="hinge"/>
-            <inertial pos="3.30729e-18 -0.1035 -0.008" mass="0.0563618" fullinertia="0.000237565 1.94076e-06 0.000237608 -4.14864e-21 1.09073e-32 4.84176e-33"/>
+            <inertial pos="-2.44575e-17 -0.1035 -0.008" mass="0.0563618" fullinertia="0.000237565 1.94076e-06 0.000237608 -4.14864e-21 1.09073e-32 4.84176e-33"/>
             <!-- Part 225mmbottom_2 -->
-            <geom type="mesh" class="visual" pos="0 -0.1035 -0.008" quat="0.5 -0.5 -0.5 -0.5" mesh="225mmbottom" material="225mmbottom_material"/>
-            <geom type="mesh" class="collision" pos="0 -0.1035 -0.008" quat="0.5 -0.5 -0.5 -0.5" mesh="225mmbottom" material="225mmbottom_material"/>
+            <geom type="mesh" class="visual" pos="-2.77556e-17 -0.1035 -0.008" quat="0.5 -0.5 -0.5 -0.5" mesh="225mmbottom" material="225mmbottom_material"/>
+            <geom type="mesh" class="collision" pos="-2.77556e-17 -0.1035 -0.008" quat="0.5 -0.5 -0.5 -0.5" mesh="225mmbottom" material="225mmbottom_material"/>
             <!-- Link 160mm_2 -->
-            <body name="160mm_2" pos="0 -0.207 0" quat="0 1 0 0">
+            <body name="160mm_2" pos="-2.77556e-17 -0.207 0" quat="0 1 0 0">
               <!-- Joint from 225mmbottom_2 to 160mm_2 -->
               <joint axis="0 0 1" name="FR_leg_cyl_1_1" type="hinge"/>
-              <inertial pos="-0.0205033 -0.00542213 -0.008" mass="0.0400222" fullinertia="6.94585e-06 8.04636e-05 8.60343e-05 -2.09038e-05 -2.52565e-30 9.10909e-30"/>
+              <inertial pos="-0.0205033 -0.00542213 -0.008" mass="0.0400222" fullinertia="6.94585e-06 8.04636e-05 8.60343e-05 -2.09038e-05 -2.52549e-30 9.10908e-30"/>
               <!-- Part 160mm_2 -->
               <geom type="mesh" class="visual" pos="-0.0203021 -0.00536893 -0.008" quat="0.0911511 -0.701207 -0.0911511 -0.701207" mesh="160mm" material="160mm_material"/>
               <geom type="mesh" class="collision" pos="-0.0203021 -0.00536893 -0.008" quat="0.0911511 -0.701207 -0.0911511 -0.701207" mesh="160mm" material="160mm_material"/>
               <!-- Frame closing_FR_leg3_1_1 -->
-              <site group="3" name="closing_FR_leg3_1_1" pos="0.0483383 0.0127832 3.02536e-15" quat="0.792358 -1.38778e-17 -2.20648e-18 -0.610056"/>
+              <site group="3" name="closing_FR_leg3_1_1" pos="0.0483383 0.0127832 3.05311e-15" quat="0.792358 4.16334e-17 -3.13676e-17 -0.610056"/>
               <!-- Frame closing_FR_leg3_1_1_z -->
-              <site group="3" name="closing_FR_leg3_1_1_z" pos="0.0483383 0.0127832 0.1" quat="0.792358 -1.38778e-17 -2.20648e-18 -0.610056"/>
+              <site group="3" name="closing_FR_leg3_1_1_z" pos="0.0483383 0.0127832 0.1" quat="0.792358 4.16334e-17 -3.13676e-17 -0.610056"/>
             </body>
           </body>
         </body>
@@ -329,7 +329,7 @@
       <body name="part_1_3" pos="-0.0889549 -0.0418958 -0.0543461" quat="0.707107 -0.707107 -3.33067e-16 2.58153e-16">
         <!-- Joint from chassisasm to part_1_3 -->
         <joint axis="0 0 1" name="BL_hip" type="hinge"/>
-        <inertial pos="0.0023646 -0.000118119 -0.126815" mass="0.834326" fullinertia="0.00325195 0.00306719 0.000364028 2.10674e-06 1.26165e-05 1.50142e-06"/>
+        <inertial pos="0.00234746 -0.000117263 -0.126025" mass="0.840416" fullinertia="0.00332437 0.00313964 0.000364426 2.10843e-06 1.41754e-05 1.42355e-06"/>
         <!-- Part part_1_18 -->
         <geom type="mesh" class="visual" pos="0 0 0" quat="0.707107 0.707107 -0 4.98962e-33" mesh="part_1__4" material="part_1__4_material"/>
         <geom type="mesh" class="collision" pos="0 0 0" quat="0.707107 0.707107 -0 4.98962e-33" mesh="part_1__4" material="part_1__4_material"/>
@@ -422,7 +422,7 @@
           <body name="225mmtop_3" pos="-2.77556e-17 -1.38778e-17 -0.0325" quat="0.903178 -9.98535e-16 3.33067e-16 -0.429266">
             <!-- Joint from 68mm_3 to 225mmtop_3 -->
             <joint axis="0 0 1" name="BL_leg_5_2_1" type="hinge"/>
-            <inertial pos="8.20664e-18 0.103396 -0.008" mass="0.0562684" fullinertia="0.000237245 2.00635e-06 0.000237309 1.9146e-20 -3.63985e-36 2.05716e-36"/>
+            <inertial pos="8.20919e-18 0.103396 -0.008" mass="0.0562684" fullinertia="0.000237245 2.00635e-06 0.000237309 1.9146e-20 -3.63985e-36 2.05716e-36"/>
             <!-- Part 225mmtop_3 -->
             <geom type="mesh" class="visual" pos="6.93889e-18 0.1035 -0.008" quat="0.5 -0.5 -0.5 -0.5" mesh="225mmtop" material="225mmtop_material"/>
             <geom type="mesh" class="collision" pos="6.93889e-18 0.1035 -0.008" quat="0.5 -0.5 -0.5 -0.5" mesh="225mmtop" material="225mmtop_material"/>
@@ -447,10 +447,10 @@
         </body>
       </body>
       <!-- Link part_1_4 -->
-      <body name="part_1_4" pos="0.0860451 -0.0418958 -0.0543461" quat="0.707107 -0.707107 -1.78968e-13 -1.78936e-13">
+      <body name="part_1_4" pos="0.0860451 -0.0418958 -0.0543461" quat="0.707107 -0.707107 -1.85407e-13 -1.85272e-13">
         <!-- Joint from chassisasm to part_1_4 -->
         <joint axis="0 0 1" name="BR_hip" type="hinge"/>
-        <inertial pos="-0.0023646 0.000118119 -0.126815" mass="0.834326" fullinertia="0.00325195 0.00306719 0.000364028 2.10674e-06 -1.26165e-05 -1.50142e-06"/>
+        <inertial pos="-0.00234746 0.000117263 -0.126029" mass="0.840416" fullinertia="0.00332355 0.00313881 0.000364426 2.10843e-06 -1.41664e-05 -1.424e-06"/>
         <!-- Part hip_joint_to_bearing_shaft_4 -->
         <geom type="mesh" class="visual" pos="2.77556e-17 -6.93889e-18 -0.233675" quat="0.5 0.5 0.5 -0.5" mesh="hip_joint_to_bearing_shaft" material="hip_joint_to_bearing_shaft_material"/>
         <geom type="mesh" class="collision" pos="2.77556e-17 -6.93889e-18 -0.233675" quat="0.5 0.5 0.5 -0.5" mesh="hip_joint_to_bearing_shaft" material="hip_joint_to_bearing_shaft_material"/>
@@ -458,8 +458,8 @@
         <geom type="mesh" class="visual" pos="0 0 -0.0075" quat="0.5 0.5 0.5 -0.5" mesh="part_1__3" material="part_1__3_material"/>
         <geom type="mesh" class="collision" pos="0 0 -0.0075" quat="0.5 0.5 0.5 -0.5" mesh="part_1__3" material="part_1__3_material"/>
         <!-- Part part_1_25 -->
-        <geom type="mesh" class="visual" pos="0 0 0" quat="0.707107 0.707107 0 3.06288e-43" mesh="part_1__4" material="part_1__4_material"/>
-        <geom type="mesh" class="collision" pos="0 0 0" quat="0.707107 0.707107 0 3.06288e-43" mesh="part_1__4" material="part_1__4_material"/>
+        <geom type="mesh" class="visual" pos="0 0 0" quat="0.707107 0.707107 -0 6.35236e-43" mesh="part_1__4" material="part_1__4_material"/>
+        <geom type="mesh" class="collision" pos="0 0 0" quat="0.707107 0.707107 -0 6.35236e-43" mesh="part_1__4" material="part_1__4_material"/>
         <!-- Part motor_part_hip_joint_4 -->
         <geom type="mesh" class="visual" pos="0.017675 2.08167e-17 -0.079925" quat="0.5 0.5 0.5 -0.5" mesh="motor_part_hip_joint" material="motor_part_hip_joint_material"/>
         <geom type="mesh" class="collision" pos="0.017675 2.08167e-17 -0.079925" quat="0.5 0.5 0.5 -0.5" mesh="motor_part_hip_joint" material="motor_part_hip_joint_material"/>
@@ -467,14 +467,14 @@
         <geom type="mesh" class="visual" pos="-0.017675 -2.80092e-06 -0.088506" quat="0.5 0.5 -0.5 -0.5" mesh="x2_8010632f54c130b130fc30b903a6_x0_10x9_5l_side_code_g_2" material="x2_8010632f54c130b130fc30b903a6_x0_10x9_5l_side_code_g_2_material"/>
         <geom type="mesh" class="collision" pos="-0.017675 -2.80092e-06 -0.088506" quat="0.5 0.5 -0.5 -0.5" mesh="x2_8010632f54c130b130fc30b903a6_x0_10x9_5l_side_code_g_2" material="x2_8010632f54c130b130fc30b903a6_x0_10x9_5l_side_code_g_2_material"/>
         <!-- Part part_1_26 -->
-        <geom type="mesh" class="visual" pos="-0.009 2.08167e-17 -0.088675" quat="1.21444e-16 0.707107 -0.707107 -2.11447e-15" mesh="part_1" material="part_1_material"/>
-        <geom type="mesh" class="collision" pos="-0.009 2.08167e-17 -0.088675" quat="1.21444e-16 0.707107 -0.707107 -2.11447e-15" mesh="part_1" material="part_1_material"/>
+        <geom type="mesh" class="visual" pos="-0.009 2.08167e-17 -0.088675" quat="3.42982e-17 0.707107 -0.707107 -2.15888e-15" mesh="part_1" material="part_1_material"/>
+        <geom type="mesh" class="collision" pos="-0.009 2.08167e-17 -0.088675" quat="3.42982e-17 0.707107 -0.707107 -2.15888e-15" mesh="part_1" material="part_1_material"/>
         <!-- Part motor_controller_hip_part_4 -->
         <geom type="mesh" class="visual" pos="-0.0145 0 -0.079925" quat="0.5 0.5 0.5 -0.5" mesh="motor_controller_hip_part" material="motor_controller_hip_part_material"/>
         <geom type="mesh" class="collision" pos="-0.0145 0 -0.079925" quat="0.5 0.5 0.5 -0.5" mesh="motor_controller_hip_part" material="motor_controller_hip_part_material"/>
         <!-- Part part_1_27 -->
-        <geom type="mesh" class="visual" pos="-0.009 0 -0.173675" quat="1.21444e-16 0.707107 -0.707107 -2.11447e-15" mesh="part_1" material="part_1_material"/>
-        <geom type="mesh" class="collision" pos="-0.009 0 -0.173675" quat="1.21444e-16 0.707107 -0.707107 -2.11447e-15" mesh="part_1" material="part_1_material"/>
+        <geom type="mesh" class="visual" pos="-0.009 0 -0.173675" quat="3.42982e-17 0.707107 -0.707107 -2.15888e-15" mesh="part_1" material="part_1_material"/>
+        <geom type="mesh" class="collision" pos="-0.009 0 -0.173675" quat="3.42982e-17 0.707107 -0.707107 -2.15888e-15" mesh="part_1" material="part_1_material"/>
         <!-- Part spacer_7 -->
         <geom type="mesh" class="visual" pos="0 -6.93889e-18 -0.028675" quat="0.707107 -3.46122e-16 0.707107 -7.77156e-16" mesh="spacer" material="spacer_material"/>
         <geom type="mesh" class="collision" pos="0 -6.93889e-18 -0.028675" quat="0.707107 -3.46122e-16 0.707107 -7.77156e-16" mesh="spacer" material="spacer_material"/>
@@ -485,52 +485,52 @@
         <geom type="mesh" class="visual" pos="0 2.08167e-17 -0.214625" quat="0.707107 -1.57009e-16 0.707107 2.22045e-16" mesh="spacer" material="spacer_material"/>
         <geom type="mesh" class="collision" pos="0 2.08167e-17 -0.214625" quat="0.707107 -1.57009e-16 0.707107 2.22045e-16" mesh="spacer" material="spacer_material"/>
         <!-- Link part_1_5 -->
-        <body name="part_1_5" pos="0.007 -6.93889e-18 -0.173675" quat="9.13909e-14 -0.707107 -9.13714e-14 0.707107">
+        <body name="part_1_5" pos="0.007 6.93889e-18 -0.173675" quat="9.12339e-14 -0.707107 -9.10383e-14 0.707107">
           <!-- Joint from part_1_4 to part_1_5 -->
           <joint axis="0 0 1" name="BR_a" type="hinge"/>
           <inertial pos="0.0085308 -0.00277183 -0.0196416" mass="0.0670155" fullinertia="2.51735e-05 4.42534e-05 2.88139e-05 6.93117e-06 1.1353e-05 -3.68881e-06"/>
           <!-- Part part_1_28 -->
-          <geom type="mesh" class="visual" pos="0 0 0" quat="0.707107 0.707107 -0 7.8161e-30" mesh="part_1__4" material="part_1__4_material"/>
-          <geom type="mesh" class="collision" pos="0 0 0" quat="0.707107 0.707107 -0 7.8161e-30" mesh="part_1__4" material="part_1__4_material"/>
+          <geom type="mesh" class="visual" pos="0 6.93889e-18 0" quat="0.707107 0.707107 -0 -1.19165e-29" mesh="part_1__4" material="part_1__4_material"/>
+          <geom type="mesh" class="collision" pos="0 6.93889e-18 0" quat="0.707107 0.707107 -0 -1.19165e-29" mesh="part_1__4" material="part_1__4_material"/>
           <!-- Part 80mm_4 -->
           <geom type="mesh" class="visual" pos="0.0293289 -0.00952953 -0.0395" quat="0.698401 0.110616 0.698401 -0.110616" mesh="80mm" material="80mm_material"/>
           <geom type="mesh" class="collision" pos="0.0293289 -0.00952953 -0.0395" quat="0.698401 0.110616 0.698401 -0.110616" mesh="80mm" material="80mm_material"/>
           <!-- Part shaftcouplerleft_4 -->
-          <geom type="mesh" class="visual" pos="0 -1.38778e-17 -0.0075" quat="2.60902e-15 -2.6986e-15 0.707107 0.707107" mesh="shaftcouplerleft" material="shaftcouplerleft_material"/>
-          <geom type="mesh" class="collision" pos="0 -1.38778e-17 -0.0075" quat="2.60902e-15 -2.6986e-15 0.707107 0.707107" mesh="shaftcouplerleft" material="shaftcouplerleft_material"/>
+          <geom type="mesh" class="visual" pos="0 6.93889e-18 -0.0075" quat="2.55351e-15 -2.6986e-15 0.707107 0.707107" mesh="shaftcouplerleft" material="shaftcouplerleft_material"/>
+          <geom type="mesh" class="collision" pos="0 6.93889e-18 -0.0075" quat="2.55351e-15 -2.6986e-15 0.707107 0.707107" mesh="shaftcouplerleft" material="shaftcouplerleft_material"/>
           <!-- Frame closing_BR_leg0_2 -->
-          <site group="3" name="closing_BR_leg0_2" pos="0.0588116 -0.0191091 -0.0315" quat="3.71724e-15 0.156434 0.987688 6.02167e-16"/>
+          <site group="3" name="closing_BR_leg0_2" pos="0.0588116 -0.0191091 -0.0315" quat="3.69666e-15 0.156434 0.987688 5.67052e-16"/>
           <!-- Frame closing_BR_leg0_2_z -->
-          <site group="3" name="closing_BR_leg0_2_z" pos="0.0588116 -0.0191091 -0.1315" quat="3.71724e-15 0.156434 0.987688 6.02167e-16"/>
+          <site group="3" name="closing_BR_leg0_2_z" pos="0.0588116 -0.0191091 -0.1315" quat="3.69666e-15 0.156434 0.987688 5.67052e-16"/>
         </body>
         <!-- Link part_1_6 -->
-        <body name="part_1_6" pos="0.007 2.08167e-17 -0.088675" quat="4.0545e-14 -0.707107 -4.05231e-14 0.707107">
+        <body name="part_1_6" pos="0.007 1.38778e-17 -0.088675" quat="4.03183e-14 -0.707107 -4.03011e-14 0.707107">
           <!-- Joint from part_1_4 to part_1_6 -->
           <joint axis="0 0 1" name="BR_l" type="hinge"/>
           <inertial pos="-0.00524172 -0.00380833 -0.0130847" mass="0.0627693" fullinertia="1.52145e-05 1.94787e-05 1.89506e-05 -6.56192e-06 -3.75586e-06 -2.72879e-06"/>
           <!-- Part shaftcouplerright_4 -->
-          <geom type="mesh" class="visual" pos="0 -6.93889e-18 -0.0075" quat="0.5 0.5 -0.5 -0.5" mesh="shaftcouplerright" material="shaftcouplerright_material"/>
-          <geom type="mesh" class="collision" pos="0 -6.93889e-18 -0.0075" quat="0.5 0.5 -0.5 -0.5" mesh="shaftcouplerright" material="shaftcouplerright_material"/>
+          <geom type="mesh" class="visual" pos="0 0 -0.0075" quat="0.5 0.5 -0.5 -0.5" mesh="shaftcouplerright" material="shaftcouplerright_material"/>
+          <geom type="mesh" class="collision" pos="0 0 -0.0075" quat="0.5 0.5 -0.5 -0.5" mesh="shaftcouplerright" material="shaftcouplerright_material"/>
           <!-- Part part_1_29 -->
-          <geom type="mesh" class="visual" pos="0 0 0" quat="0.707107 0.707107 -0 4.31703e-30" mesh="part_1__4" material="part_1__4_material"/>
-          <geom type="mesh" class="collision" pos="0 0 0" quat="0.707107 0.707107 -0 4.31703e-30" mesh="part_1__4" material="part_1__4_material"/>
+          <geom type="mesh" class="visual" pos="0 0 0" quat="0.707107 0.707107 -0 4.41834e-30" mesh="part_1__4" material="part_1__4_material"/>
+          <geom type="mesh" class="collision" pos="0 0 0" quat="0.707107 0.707107 -0 4.41834e-30" mesh="part_1__4" material="part_1__4_material"/>
           <!-- Part 68mm_4 -->
           <geom type="mesh" class="visual" pos="-0.0200945 -0.0145995 -0.0245" quat="0.218508 0.672499 0.218508 -0.672499" mesh="68mm" material="68mm_material"/>
           <geom type="mesh" class="collision" pos="-0.0200945 -0.0145995 -0.0245" quat="0.218508 0.672499 0.218508 -0.672499" mesh="68mm" material="68mm_material"/>
           <!-- Link 225mmtop_4 -->
-          <body name="225mmtop_4" pos="0 6.93889e-18 -0.0325" quat="0.902929 0 1.11022e-16 0.42979">
+          <body name="225mmtop_4" pos="0 0 -0.0325" quat="0.902929 0 2.22045e-16 0.42979">
             <!-- Joint from part_1_6 to 225mmtop_4 -->
             <joint axis="0 0 1" name="BR_leg1" type="hinge"/>
-            <inertial pos="-1.95454e-17 -0.103396 -0.008" mass="0.0562684" fullinertia="0.000237245 2.00635e-06 0.000237309 -3.32196e-21 6.46852e-33 5.63222e-33"/>
+            <inertial pos="8.21275e-18 -0.103396 -0.008" mass="0.0562684" fullinertia="0.000237245 2.00635e-06 0.000237309 -3.32196e-21 -3.51314e-33 6.4756e-33"/>
             <!-- Part 225mmtop_4 -->
-            <geom type="mesh" class="visual" pos="-2.08167e-17 -0.1035 -0.008" quat="0.5 0.5 0.5 -0.5" mesh="225mmtop" material="225mmtop_material"/>
-            <geom type="mesh" class="collision" pos="-2.08167e-17 -0.1035 -0.008" quat="0.5 0.5 0.5 -0.5" mesh="225mmtop" material="225mmtop_material"/>
+            <geom type="mesh" class="visual" pos="6.93889e-18 -0.1035 -0.008" quat="0.5 0.5 0.5 -0.5" mesh="225mmtop" material="225mmtop_material"/>
+            <geom type="mesh" class="collision" pos="6.93889e-18 -0.1035 -0.008" quat="0.5 0.5 0.5 -0.5" mesh="225mmtop" material="225mmtop_material"/>
             <!-- Frame closing_BR_leg3_2 -->
-            <site group="3" name="closing_BR_leg3_2" pos="-2.77556e-17 -0.207 0" quat="2.96411e-29 0.707107 0.707107 2.31773e-29"/>
+            <site group="3" name="closing_BR_leg3_2" pos="6.93889e-18 -0.207 0" quat="1.97344e-30 0.707107 0.707107 -6.97998e-30"/>
             <!-- Frame closing_BR_leg3_2_z -->
-            <site group="3" name="closing_BR_leg3_2_z" pos="-4.16334e-17 -0.207 -0.1" quat="2.96411e-29 0.707107 0.707107 2.31773e-29"/>
+            <site group="3" name="closing_BR_leg3_2_z" pos="6.93889e-18 -0.207 -0.1" quat="1.97344e-30 0.707107 0.707107 -6.97998e-30"/>
             <!-- Link 105mm_4 -->
-            <body name="105mm_4" pos="-3.46945e-17 -0.166278 0" quat="0 1 0 0">
+            <body name="105mm_4" pos="-2.77556e-17 -0.166278 0" quat="0 1 0 0">
               <!-- Joint from 225mmtop_4 to 105mm_4 -->
               <joint axis="0 0 1" name="BR_leg_cyl_0" type="hinge"/>
               <inertial pos="0.0379253 -0.0213054 -0.009" mass="0.0262025" fullinertia="6.59739e-06 1.87892e-05 2.44536e-05 1.00071e-05 -3.45739e-21 1.93358e-21"/>
@@ -538,31 +538,31 @@
               <geom type="mesh" class="visual" pos="0.0379253 -0.0213054 -0.009" quat="0.178993 0.684077 -0.178993 0.684077" mesh="105mm" material="105mm_material"/>
               <geom type="mesh" class="collision" pos="0.0379253 -0.0213054 -0.009" quat="0.178993 0.684077 -0.178993 0.684077" mesh="105mm" material="105mm_material"/>
               <!-- Frame closing_BR_leg0_1 -->
-              <site group="3" name="closing_BR_leg0_1" pos="0.0758506 -0.0426108 -0.001" quat="0.505085 1.6243e-16 1.11022e-16 -0.86307"/>
+              <site group="3" name="closing_BR_leg0_1" pos="0.0758506 -0.0426108 -0.001" quat="0.505085 1.74929e-16 1.11022e-16 -0.86307"/>
               <!-- Frame closing_BR_leg0_1_z -->
-              <site group="3" name="closing_BR_leg0_1_z" pos="0.0758506 -0.0426108 0.099" quat="0.505085 1.6243e-16 1.11022e-16 -0.86307"/>
+              <site group="3" name="closing_BR_leg0_1_z" pos="0.0758506 -0.0426108 0.099" quat="0.505085 1.74929e-16 1.11022e-16 -0.86307"/>
             </body>
           </body>
           <!-- Link 225mmbottom_4 -->
-          <body name="225mmbottom_4" pos="-0.0403199 -0.0292942 -0.0325" quat="0.903102 0 -1.13091e-26 0.429425">
+          <body name="225mmbottom_4" pos="-0.0403199 -0.0292942 -0.0325" quat="0.903102 0 -1.1713e-26 0.429425">
             <!-- Joint from part_1_6 to 225mmbottom_4 -->
             <joint axis="0 0 1" name="BR_leg2" type="hinge"/>
-            <inertial pos="-1.23052e-17 -0.1035 -0.008" mass="0.0563618" fullinertia="0.000237565 1.94076e-06 0.000237608 1.7589e-21 -1.91486e-32 1.30826e-32"/>
+            <inertial pos="-1.57838e-17 -0.1035 -0.008" mass="0.0563618" fullinertia="0.000237565 1.94076e-06 0.000237608 8.64605e-21 -2.11235e-32 1.2532e-32"/>
             <!-- Part 225mmbottom_4 -->
-            <geom type="mesh" class="visual" pos="-1.56125e-17 -0.1035 -0.008" quat="0.5 -0.5 -0.5 -0.5" mesh="225mmbottom" material="225mmbottom_material"/>
-            <geom type="mesh" class="collision" pos="-1.56125e-17 -0.1035 -0.008" quat="0.5 -0.5 -0.5 -0.5" mesh="225mmbottom" material="225mmbottom_material"/>
+            <geom type="mesh" class="visual" pos="-1.9082e-17 -0.1035 -0.008" quat="0.5 -0.5 -0.5 -0.5" mesh="225mmbottom" material="225mmbottom_material"/>
+            <geom type="mesh" class="collision" pos="-1.9082e-17 -0.1035 -0.008" quat="0.5 -0.5 -0.5 -0.5" mesh="225mmbottom" material="225mmbottom_material"/>
             <!-- Link 160mm_4 -->
-            <body name="160mm_4" pos="-3.1225e-17 -0.207 2.77556e-17" quat="0 1 0 0">
+            <body name="160mm_4" pos="-3.46945e-18 -0.207 0" quat="0 1 0 0">
               <!-- Joint from 225mmbottom_4 to 160mm_4 -->
               <joint axis="0 0 1" name="BR_leg_cyl_1" type="hinge"/>
-              <inertial pos="-0.0205033 -0.00542213 -0.008" mass="0.0400222" fullinertia="6.94585e-06 8.04636e-05 8.60343e-05 -2.09038e-05 -4.69741e-32 2.12093e-31"/>
+              <inertial pos="-0.0205033 -0.00542213 -0.008" mass="0.0400222" fullinertia="6.94585e-06 8.04636e-05 8.60343e-05 -2.09038e-05 -4.21097e-32 1.95086e-31"/>
               <!-- Part 160mm_4 -->
               <geom type="mesh" class="visual" pos="-0.0203021 -0.00536893 -0.008" quat="0.0911511 -0.701207 -0.0911511 -0.701207" mesh="160mm" material="160mm_material"/>
               <geom type="mesh" class="collision" pos="-0.0203021 -0.00536893 -0.008" quat="0.0911511 -0.701207 -0.0911511 -0.701207" mesh="160mm" material="160mm_material"/>
               <!-- Frame closing_BR_leg3_1 -->
-              <site group="3" name="closing_BR_leg3_1" pos="0.0483383 0.0127832 2.22045e-15" quat="0.792358 -0 1.00343e-27 -0.610056"/>
+              <site group="3" name="closing_BR_leg3_1" pos="0.0483383 0.0127832 2.72005e-15" quat="0.792358 -0 9.02457e-28 -0.610056"/>
               <!-- Frame closing_BR_leg3_1_z -->
-              <site group="3" name="closing_BR_leg3_1_z" pos="0.0483383 0.0127832 0.1" quat="0.792358 -0 1.00343e-27 -0.610056"/>
+              <site group="3" name="closing_BR_leg3_1_z" pos="0.0483383 0.0127832 0.1" quat="0.792358 -0 9.02457e-28 -0.610056"/>
             </body>
           </body>
         </body>
@@ -570,26 +570,26 @@
     </body>
   </worldbody>
   <asset>
-    <mesh file="part_1.stl"/>
-    <mesh file="shaftcouplerright.stl"/>
-    <mesh file="68mm.stl"/>
-    <mesh file="motor_controller_hip_part.stl"/>
-    <mesh file="part_1__2.stl"/>
-    <mesh file="160mm.stl"/>
-    <mesh file="spacer.stl"/>
+    <mesh file="x2_8010632f54c130b130fc30b903a6_x0_10x9_5l_side_code_g_2.stl"/>
+    <mesh file="part_1__3.stl"/>
     <mesh file="hip_joint_to_bearing_shaft.stl"/>
     <mesh file="bearing_mount.stl"/>
+    <mesh file="shaftcouplerright.stl"/>
+    <mesh file="105mm.stl"/>
+    <mesh file="part_1__4.stl"/>
+    <mesh file="shaftcouplerleft.stl"/>
+    <mesh file="part_1__2.stl"/>
+    <mesh file="motor_part_hip_joint.stl"/>
+    <mesh file="motor_controller_hip_part.stl"/>
+    <mesh file="spacer.stl"/>
+    <mesh file="68mm.stl"/>
+    <mesh file="225mmtop.stl"/>
+    <mesh file="motor_holder.stl"/>
+    <mesh file="80mm.stl"/>
+    <mesh file="part_1.stl"/>
+    <mesh file="160mm.stl"/>
     <mesh file="225mmbottom.stl"/>
     <mesh file="motor_controller_holder.stl"/>
-    <mesh file="80mm.stl"/>
-    <mesh file="225mmtop.stl"/>
-    <mesh file="shaftcouplerleft.stl"/>
-    <mesh file="part_1__3.stl"/>
-    <mesh file="motor_part_hip_joint.stl"/>
-    <mesh file="part_1__4.stl"/>
-    <mesh file="x2_8010632f54c130b130fc30b903a6_x0_10x9_5l_side_code_g_2.stl"/>
-    <mesh file="motor_holder.stl"/>
-    <mesh file="105mm.stl"/>
     <material name="part_1_material" rgba="0.647059 0.647059 0.647059 1"/>
     <material name="part_1__2_material" rgba="0.615686 0.811765 0.929412 1"/>
     <material name="motor_controller_holder_material" rgba="0.615686 0.811765 0.929412 1"/>
